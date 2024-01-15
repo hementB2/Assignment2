@@ -1,3 +1,187 @@
-* {
-  box-sizing: border-box;
+body {
+    margin: 0;
+    top: 0;
+    padding: 0;
+}
+
+
+nav h1 {
+    margin: 10px 0 10px 0;
+    padding: 10px;
+    background-color: rgb(151, 194, 217);
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+nav {
+    display: flex;
+    background-color: rgb(28, 43, 43);
+    justify-content: space-between;
+}
+
+.left-div {
+    align-items: flex-start;
+}
+
+.right-div {
+    align-items: flex-end;
+    padding: 10px 0 20px 0;
+}
+
+ul li {
+    list-style: none;
+    display: inline;
+}
+
+li a {
+    text-decoration: none;
+    color: rgb(151, 194, 217);
+    padding: 20px;
+    border-bottom: 2px solid rgb(151, 194, 217);
+    padding-bottom: 5px;
+}
+
+img{
+    width: 100%;
+    height: 200px;
+}
+
+.img-div{
+    display: flex;
+    margin: 0;
+    width: 100%;
+    height: 200px;
+    align-items: flex-end;
+    justify-content: end;
+    padding-bottom: 20px;
+    background-image: url("../images/02-hero-bg.jpg");
+    background-size: cover;
+    margin-right: 20px;
+}
+
+.img-div p{
+    margin: 0;
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 10px;
+    background-color: rgb(151, 194, 217);
+    align-items: flex-end;
+}
+
+.contents{
+    display: flex;
+}
+
+.content-head{
+    align-items: flex-start;
+    margin-left: 200px;
+    width: 20%;
+}
+
+.content-body{
+    align-items: flex-start;
+    width: 80%;
+}
+
+.content-head p{
+    margin-top: 10px;
+    font-size: 40PX;
+    color: rgb(97, 135, 169);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    align-items: flex-end;
+    text-align: end;
+    padding: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+   
+    
+}
+
+.content-body p{
+    display: flex;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-left: 2px solid Black;
+    padding: 0px 10px 10px 20px;
+}
+
+.container{
+    width: 90%;
+    border-left: 2px solid black;
+    
+}
+.highlight-shadow {
+    box-shadow: 0 0;
+}
+.images{
+    width: 100%;
+    margin-left: 20px;
+    background-image: url("../images/02-portfolio-4.jpg");
+    border: 5px solid rgb(151, 194, 217);
+    margin: 10px;
+    padding-bottom: 25%;
+}
+
+.images1{
+    width: 100%;
+    margin-left: 20px;
+    background-image: url("../images/02-portfolio-1.jpg");
+    background-size: cover;
+    border: 5px solid rgb(151, 194, 217);
+    margin: 10px;
+}
+
+.images2{
+    width: 100%;
+    margin-left: 20px;
+    background-image: url("../images/02-portfolio-2.jpg");
+    border: 5px solid rgb(151, 194, 217);
+    background-size: cover;
+    margin: 10px;
+}
+
+.images3{
+    width: 100%;
+    margin-left: 20px;
+    background-image: url("../images/02-portfolio-3.jpg");
+    border: 5px solid rgb(151, 194, 217);
+    background-position: 60% 50%;
+    margin: 10px;
+}
+
+.images4{
+    width: 100%;
+    margin-left: 20px;
+    background-image: url("../images/02-run-buddy.jpg");
+    border: 5px solid rgb(151, 194, 217);
+    background-size: cover;
+    margin: 10px;
+}
+
+.img-text{
+    background-color: rgb(151, 194, 217);
+    display: inline-block;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 10px;
+    margin-left: 0;
+    margin: 30px 0 30px 0;
+}
+
+.in-div-container{
+ 
+    display: flex;
+    flex-wrap: stretch;
+    align-content: space-between;
+}
+
+.socials span{
+    text-align: center;
+    font-size: 20px;
+    border-bottom: 3px solid black;
+}
+
+.socials{
+    align-content: space-between;
+    justify-content: space-between;
+    width: 80%;
 }
