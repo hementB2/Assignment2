@@ -24,19 +24,19 @@ Feel free to explore my portfolio and get in touch if you have a project that co
 ## Work
 
 ### Surf Report (Mern Stack)
-![Surf Report](./assets/images/surf-report.jpg)
+![Surf Report](./main/assets/images/02-portfolio-4.jpg)
 
 ### LED Wall (Node/loT)
-![LED Wall](./assets/images/led-wall.jpg)
+![LED Wall](./main/assets/images/02-portfolio-1.jpg)
 
 ### Calculator (React/JavaScript/CSS)
-![Calculator](./assets/images/calculator.jpg)
+![Calculator](./main/assets/images/02-portfolio-2.jpg)
 
 ### Pastel Puzzels (Mern Stack)
-![Pastel Puzzels](./assets/images/pastel-puzzels.jpg)
+![Pastel Puzzels](./main/assets/images/02-portfolio-3.jpg)
 
 ### Run Buddy (Mern Stack)
-![Run Buddy](./assets/images/run-buddy.jpg)
+![Run Buddy](./main/assets/images/02-run-buddy.jpg)
 
 Explore some of my featured projects above.
 
